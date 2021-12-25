@@ -8,4 +8,6 @@ package net.zzw.test;
  * @since JDK11
  */
 public class Student {
+	private int age;
+	private String name;
 }
