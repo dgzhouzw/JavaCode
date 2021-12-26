@@ -12,5 +12,9 @@ public class TestOperator {
 		int score = 90;
 		String str = score < 60 ? "不及格" : "合格";
 		System.out.println(str);
+
+		int x = -100;
+		int flag = x > 0 ? 1 : (x == 0 ? 0: -1);
+		System.out.println(flag);
 	}
 }
